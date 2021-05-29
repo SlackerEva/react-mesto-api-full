@@ -145,7 +145,7 @@ class Api {
 
 
 const config = {
-  url: 'http://localhost:3005/',
+  url: 'https://api.mentor.nomoredomains.monster/',
 };
 
 const api = new Api(config);
