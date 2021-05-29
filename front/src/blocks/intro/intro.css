@@ -1,0 +1,41 @@
+.intro {
+  display: grid;
+  gap: 7px 2%;
+  grid-template-columns: 15% 33.5% 28.5% 17%;
+  grid-template-areas: 
+  "img title button_edit button_add"
+  "img paragraph . button_add";
+  padding: 36.25px 0 47.24px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro { 
+    grid-template-columns: 19% 42.5% 10.8% 21.7%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .intro {
+    gap: 7px 2.5%;
+    grid-template-columns: 32.5% 56% 7%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "img title button_edit"
+    "img paragraph ."
+    "button_add button_add button_add";
+    padding: 38.25px 0 36px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro {
+    gap: 0 3.5%;
+    grid-template-columns: 83.5% 13%;
+    grid-template-areas: 
+    "img img"
+    "title button_edit"
+    "paragraph paragraph"
+    "button_add button_add";
+    padding: 38.25px 0 36px;
+  }
+}

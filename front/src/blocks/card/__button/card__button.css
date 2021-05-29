@@ -1,0 +1,15 @@
+.card__button {
+  display: block;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.card__button:focus {
+  outline: none;
+  border: none;
+}
+
+.card__button:hover {
+  filter: brightness(0.6);
+}

@@ -1,0 +1,21 @@
+.intro__paragraph {
+  grid-area: paragraph;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .intro__paragraph {
+    margin-bottom: 36px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro__paragraph {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+}

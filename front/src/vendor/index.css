@@ -1,0 +1,54 @@
+@import url(vendor/normalize.css);
+/*@import url(fonts/fonts.css);*/
+
+@import url(blocks/body/body.css);
+@import url(blocks/page/page.css);
+
+@import url(blocks/header/header.css);
+@import url(blocks/logo/logo.css);
+
+@import url(blocks/content/content.css);
+
+@import url(blocks/intro/intro.css);
+@import url(blocks/intro/__img/intro__img.css);
+@import url(blocks/intro/__title/intro__title.css);
+@import url(blocks/intro/__paragraph/intrro__paragraph.css);
+@import url(blocks/intro/__button-edit/intro__button-edit.css);
+@import url(blocks/intro/__img-edit/intro__img-edit.css);
+@import url(blocks/intro/__button-add/intro__button-add.css);
+@import url(blocks/intro/__wrapper-avatar/intro__wrapper-avatar.css);
+@import url(blocks/intro/__button-edit-avatar/intro__button-edit-avatar.css);
+
+@import url(blocks/cards/cards.css);
+@import url(blocks/card/card.css);
+@import url(blocks/card/__img/card__img.css);
+@import url(blocks/card/__panel/card__panel.css);
+@import url(blocks/card/__subtitle/card__subtitle.css);
+@import url(blocks/card/__button/card__button.css);
+@import url(blocks/card/__like-count/card__like-count.css);
+@import url(blocks/card/__button-trash/card__button-trash.css);
+@import url(blocks/card/__button-show/card__button-show.css);
+
+
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__text/footer__text.css);
+
+@import url(blocks/popup/popup.css);
+@import url(blocks/popup/__page/popup__page.css);
+@import url(blocks/popup/__content/popup__content.css);
+@import url(blocks/popup/__input/popup__input.css);
+@import url(blocks/popup/__button-save/popup__button-save.css);
+@import url(blocks/popup/__close/popup__close.css);
+@import url(blocks/popup/__subtitle/popup__subtitle.css);
+@import url(blocks/popup/__img/popup__img.css);
+@import url(blocks/popup/__show-img/popup__show-img.css);
+@import url(blocks/popup/__content-show/popup__content-show.css);
+@import url(blocks/popup/__input/_type/popup__input_type_error.css);
+@import url(blocks/popup/__text/popup__text.css);
+@import url(blocks/popup/__input-error/popup__input-error.css);
+@import url(blocks/popup/__field/popup__field.css);
+@import url(blocks/popup/__button-save/_inactive/popup__button-save_inactive.css);
+
+@import url(blocks/popup/_opened/popup_opened.css);
+
+@import url(blocks/not-show-trashbean/not-show-trashbean.css);

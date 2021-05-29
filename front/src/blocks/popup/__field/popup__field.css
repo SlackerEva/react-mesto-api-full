@@ -1,0 +1,22 @@
+.popup__field {
+  display:inline-block;
+  width: 100%;
+}
+
+.popup__field:first-of-type {
+  margin: 16px 0 38px;
+}
+  
+.popup__field:last-of-type {
+  margin-bottom: 48px;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .popup__field:first-of-type {
+    margin-top: 37px;
+  }
+
+  .popup__field:last-of-type {
+    margin-bottom: 45px;
+  }
+}

@@ -1,0 +1,16 @@
+.intro__button-edit-avatar {
+  grid-area: img;
+  height: 120px;
+  width: 120px;
+  background: transparent;
+  border-radius: 120px;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro__button-edit-avatar:focus {
+  outline: none;
+  border: none;
+}

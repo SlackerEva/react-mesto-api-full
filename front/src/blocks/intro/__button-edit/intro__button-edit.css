@@ -1,0 +1,28 @@
+.intro__button-edit {
+  grid-area: button_edit;
+  /*background-image: url(../../images/edit.png);
+  background-repeat: no-repeat;
+  background-position: center;*/
+  background: transparent;
+  align-self: end;
+  width: 24px;
+  height: 24px;
+  border: 1px #fff solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.intro__button-edit:hover {
+  border: 1px rgba(255, 255, 255, 0.6) solid;
+  filter: brightness(0.6);
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro__button-edit {
+    width: 18px;
+    height: 18px;
+    margin: 22.25px 0 22px;
+  }
+}
