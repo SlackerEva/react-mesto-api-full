@@ -1,0 +1,22 @@
+.intro__button-add {
+  grid-area: button_add;
+  align-self: center;
+  background: transparent;
+  width: 150px;
+  height: 50px;
+  border: 2px #fff solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.intro__button-add:hover {
+  border: 2px rgba(255, 255, 255, 0.6) solid;
+  filter: brightness(0.6);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro__button-add {
+    width: 100%;
+  }
+}

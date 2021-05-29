@@ -1,0 +1,18 @@
+.content {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 425px) and (max-width: 1023px) {
+  .content {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .content {
+    padding: 0 19px;
+  }
+}

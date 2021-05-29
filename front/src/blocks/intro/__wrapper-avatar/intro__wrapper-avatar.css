@@ -1,0 +1,19 @@
+.intro__wrapper-avatar {
+  grid-area: img;
+  position: relative;
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+}
+
+.intro__wrapper-avatar:hover {
+  opacity: 0.8;
+}
+
+.intro__wrapper-avatar:hover::before {
+  content: url("../../../images/edit-avatar.svg");
+  object-fit: cover;
+  position:absolute;
+  top: 40%;
+  left: 40%;
+}

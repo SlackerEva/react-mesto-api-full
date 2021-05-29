@@ -1,0 +1,10 @@
+.popup__content-show {
+position: relative;
+display: block;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .popup__content-show {
+    max-width: 282px;
+  }
+}

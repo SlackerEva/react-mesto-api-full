@@ -1,0 +1,12 @@
+.intro__img {
+  grid-area: img;
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro__img {
+    justify-self: center;
+  }
+}

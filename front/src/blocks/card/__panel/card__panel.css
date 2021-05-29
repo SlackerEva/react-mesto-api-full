@@ -1,0 +1,9 @@
+.card__panel {
+  background-color: #fff;
+  border-bottom-left-radius: 4% 14%;
+  border-bottom-right-radius: 4% 14%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px 31px 21px;
+}

@@ -1,0 +1,17 @@
+.popup__content {
+  background-color: #fff;
+  color: #000;
+  max-width: 430px;
+  display: block;
+  padding: 29px 36px 37px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .popup__content {
+    max-width: 282px;
+    padding: 25px 22px;
+  }
+}
