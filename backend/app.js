@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const dotenv = require('dotenv');
 const { createUser, login } = require('./controllers/users');
 const { auth } = require('./middlewares/auth');
 const { usersRoutes } = require('./routes/users');
@@ -8,6 +9,7 @@ const { cardsRoutes } = require('./routes/cards');
 const { middleError } = require('./middlewares/middleError');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
+dotenv.config();
 const { PORT = 3000, MONGO_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
 const app = express();
 
