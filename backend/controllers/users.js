@@ -6,6 +6,8 @@ const ValidationError = require('../errors/validation_error');
 const AuthError = require('../errors/auth_error');
 const CreationError = require('../errors/creation_error');
 
+const { NODE_ENV, JWT_SECRET } = process.env;
+
 exports.login = (req, res, next) => {
   const {
     email, password,
@@ -14,7 +16,7 @@ exports.login = (req, res, next) => {
     email, password,
   )
     .then((user) => {
-      const token = jwt.sign({ _id: user._id }, 'some-secret-key', { expiresIn: '7d' });
+      const token = jwt.sign({ _id: user._id }, `${NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret'}`, { expiresIn: '7d' });
       res.send({ token });
     })
     .catch((err) => {
@@ -102,7 +104,6 @@ exports.getMyself = (req, res, next) => {
     .orFail(() => { throw new NotFoundError('Пользователь по заданному id отсутствует в базе'); })
     .then((user) => res.send(user))
     .catch((err) => {
-      console.log(err);
       if (err.name === 'CastError') {
         next(new ValidationError('Введены некорректные данные'));
       }
