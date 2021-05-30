@@ -3,6 +3,6 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-#
-#
-#IP адрес сервера 84.252.128.108
+#(https://mentor.nomoredomains.monster/ "Ссылка на frontend")
+#(https://api.mentor.nomoredomains.monster/ "Ссылка на backend")
+#IP адрес сервера 130.193.38.125
