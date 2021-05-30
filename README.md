@@ -3,8 +3,8 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-#(https://mentor.nomoredomains.monster/ "Ссылка на frontend")  
+# (https://mentor.nomoredomains.monster/ "Ссылка на frontend")  
 
-#(https://api.mentor.nomoredomains.monster/ "Ссылка на backend")  
+# (https://api.mentor.nomoredomains.monster/ "Ссылка на backend")  
 
-#IP адрес сервера 130.193.38.125
+# IP адрес сервера 130.193.38.125
